@@ -1,0 +1,44 @@
+body{
+ background:#a9fff5; 
+ color: rgb(0, 0, 0);
+ font-family: Comic CAT;
+}
+header{
+	margin: auto;
+	line-height: 3;
+	width: 100%;
+	background: rgb(201, 217, 248);
+
+}
+
+.conteiner{
+	width: 100%;
+	max-width: 1024px;
+	padding: 0 15px;
+	margin: 0 auto;
+	
+}
+.conteiner:after, .row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.row{
+	margin-bottom: 15px;
+}
+.row1{
+min-height: 100px;
+}
+.row1 .col-2-3{
+	padding-left: 1%;
+	width: 65.6666666667%;
+}
+p{
+	font-size: 50px;
+}
+.we{
+width: 100%;
+min-height: 100%;
+display:flex;
+
+}
